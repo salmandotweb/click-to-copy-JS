@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+.input {
+  background: #eee;
+  font-family: inherit;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.7rem;
+  min-width: 30rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  margin-top: 2rem;
+}
+.copyBtn {
+  background: dodgerblue;
+  color: #fff;
+  padding: 0;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
